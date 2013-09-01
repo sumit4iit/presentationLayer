@@ -217,6 +217,11 @@ namespace XMLUtility.Controllers
             }
             try
             {
+                Array.Sort(pt, delegate(DotNet.Highcharts.Options.Point pt1, DotNet.Highcharts.Options.Point pt2)
+                    {
+                        return pt1.X.ToString().CompareTo(pt2.X.ToString());
+                    }
+                );
                 TestData.Add(new Series { Data = new Data(pt), Name = testName + ":" + storeId, PlotOptionsLine = new PlotOptionsLine { AllowPointSelect = false, LineWidth = 2, ZIndex = -1 } });
             }
             catch (Exception e)
@@ -249,7 +254,11 @@ namespace XMLUtility.Controllers
                     }
                     try
                     {
-
+                        Array.Sort(pt, delegate(DotNet.Highcharts.Options.Point pt1, DotNet.Highcharts.Options.Point pt2) 
+                            { 
+                                return pt1.X.ToString().CompareTo(pt2.X.ToString()); 
+                            }
+                            );
                         StoreData.Add(new Series { Data = new Data(pt), Name = v.Id });
                     }
                     catch (Exception e)
@@ -273,6 +282,11 @@ namespace XMLUtility.Controllers
                 }
                 try
                 {
+                    Array.Sort(pt, delegate(DotNet.Highcharts.Options.Point pt1, DotNet.Highcharts.Options.Point pt2)
+                    {
+                        return pt1.X.ToString().CompareTo(pt2.X.ToString());
+                    }
+                        );
                     StoreData.Add(new Series { Data = new Data(pt), Name = Warehouse[storeId].Id });
                 }
                 catch (Exception e)
