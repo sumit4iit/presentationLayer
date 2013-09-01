@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b22f3640-5fd0-4015-af8b-d698b74560e3" name="v-sothon@MININT-SNSLVOM 2013-06-06 23:08:36" runUser="FAREAST\v-sothon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="cfc4196a-955d-452c-be0a-b278583d1f7e">
+    <Deployment userDeploymentRoot="C:\Users\v-sothon\Desktop\testEnv\PACE\testresults" useDefaultDeploymentRoot="false" runDeploymentRoot="v-sothon_MININT-SNSLVOM 2013-06-06 23_08_36" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-06T23:08:36.2618075+05:30" queuing="2013-06-06T23:08:36.4328404+05:30" start="2013-06-06T23:08:36.4668627+05:30" finish="2013-06-06T23:16:55.9809647+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="5" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <DebugTrace>StartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation End</DebugTrace>
+    </Output>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerifyProductToAllowedMarketMapping" storage="c:\users\v-sothon\desktop\testenv\pace\release\uiautomation.dll" priority="0" id="aec56dca-f03b-5822-aaaf-13c76c89e694">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="a39fb709-b022-43a4-8651-09790b15d114" />
+      <TestMethod codeBase="C:/Users/v-sothon/Desktop/testEnv/PACE/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreatePublisherTestOperations, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="VerifyProductToAllowedMarketMapping" />
+    </UnitTest>
+    <UnitTest name="VerifyCreatePublisherTest" storage="c:\users\v-sothon\desktop\testenv\pace\release\uiautomation.dll" priority="0" id="5fda8c87-0e24-9a28-8c1e-bae1401d1897">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="174f216d-a0bb-4be6-b0e3-55175c074762" />
+      <TestMethod codeBase="C:/Users/v-sothon/Desktop/testEnv/PACE/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreatePublisherTestOperations, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="VerifyCreatePublisherTest" />
+    </UnitTest>
+    <UnitTest name="VerifyCountryandStateOrProviencesTest" storage="c:\users\v-sothon\desktop\testenv\pace\release\uiautomation.dll" priority="0" id="a70cfa2b-8d6d-6b7c-9f43-762f654c45eb">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="316bc3f5-05bf-4aa0-8bb6-527e9518a867" />
+      <TestMethod codeBase="C:/Users/v-sothon/Desktop/testEnv/PACE/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreatePublisherTestOperations, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="VerifyCountryandStateOrProviencesTest" />
+    </UnitTest>
+    <UnitTest name="CreateWin8AdunitTest" storage="c:\users\v-sothon\desktop\testenv\pace\release\uiautomation.dll" priority="0" id="05247693-d645-ce2e-4d44-939a80dae5bb">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="9a81aa65-ff85-4a62-a211-027e7aeca614" />
+      <TestMethod codeBase="C:/Users/v-sothon/Desktop/testEnv/PACE/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreateWin8AdUnit, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="CreateWin8AdunitTest" />
+    </UnitTest>
+    <UnitTest name="CreateWinMobAdUnitTest" storage="c:\users\v-sothon\desktop\testenv\pace\release\uiautomation.dll" priority="0" id="262d4131-5831-0d45-af41-7f4e01104181">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="e4fe462c-adb9-41a7-b9b0-f233fa659c1d" />
+      <TestMethod codeBase="C:/Users/v-sothon/Desktop/testEnv/PACE/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreateWinMobAdUnit, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="CreateWinMobAdUnitTest" />
+    </UnitTest>
+    <UnitTest name="CreateWin8AdUnitUsrTest" storage="c:\users\v-sothon\desktop\testenv\pace\release\uiautomation.dll" priority="0" id="c2c91595-81fa-cf41-4435-6ad3755bd251">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="64a521e8-7a8c-471b-8469-d2c7a8342e80" />
+      <TestMethod codeBase="C:/Users/v-sothon/Desktop/testEnv/PACE/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreateWin8AdUnitUsr, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="CreateWin8AdUnitUsrTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a70cfa2b-8d6d-6b7c-9f43-762f654c45eb" executionId="316bc3f5-05bf-4aa0-8bb6-527e9518a867" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fda8c87-0e24-9a28-8c1e-bae1401d1897" executionId="174f216d-a0bb-4be6-b0e3-55175c074762" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aec56dca-f03b-5822-aaaf-13c76c89e694" executionId="a39fb709-b022-43a4-8651-09790b15d114" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05247693-d645-ce2e-4d44-939a80dae5bb" executionId="9a81aa65-ff85-4a62-a211-027e7aeca614" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2c91595-81fa-cf41-4435-6ad3755bd251" executionId="64a521e8-7a8c-471b-8469-d2c7a8342e80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="262d4131-5831-0d45-af41-7f4e01104181" executionId="e4fe462c-adb9-41a7-b9b0-f233fa659c1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="316bc3f5-05bf-4aa0-8bb6-527e9518a867" testId="a70cfa2b-8d6d-6b7c-9f43-762f654c45eb" testName="VerifyCountryandStateOrProviencesTest" computerName="MININT-SNSLVOM" duration="00:00:46.2579381" startTime="2013-06-06T23:08:36.4728218+05:30" endTime="2013-06-06T23:09:25.7450664+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="316bc3f5-05bf-4aa0-8bb6-527e9518a867">
+      <Output>
+        <DebugTrace>StartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. timeout for finding requested element: NavItem_ToolManagement
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 267EndOperation-Exception EndEndOperation StartEndOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. timeout for finding requested element: NavItem_ToolManagement
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 286
+   at UIAutomation.CreatePublisherTestOperations.VerifyCountryandStateOrProviencesTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\CreatePublisherTestOperations.cs:line 122EndOperation-Exception EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation End</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="174f216d-a0bb-4be6-b0e3-55175c074762" testId="5fda8c87-0e24-9a28-8c1e-bae1401d1897" testName="VerifyCreatePublisherTest" computerName="MININT-SNSLVOM" duration="00:01:25.9353328" startTime="2013-06-06T23:09:25.7470101+05:30" endTime="2013-06-06T23:10:51.6873988+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="174f216d-a0bb-4be6-b0e3-55175c074762">
+      <Output>
+        <DebugTrace>StartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. timeout for finding requested element: NavItem_ToolManagement
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 267EndOperation-Exception EndEndOperation StartEndOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. timeout for finding requested element: NavItem_ToolManagement
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 286
+   at UIAutomation.CreatePublisherTestOperations.VerifyCreatePublisherTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\CreatePublisherTestOperations.cs:line 51EndOperation-Exception EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation End</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a39fb709-b022-43a4-8651-09790b15d114" testId="aec56dca-f03b-5822-aaaf-13c76c89e694" testName="VerifyProductToAllowedMarketMapping" computerName="MININT-SNSLVOM" duration="00:01:43.6625734" startTime="2013-06-06T23:10:51.6893169+05:30" endTime="2013-06-06T23:12:35.3586342+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a39fb709-b022-43a4-8651-09790b15d114">
+      <Output>
+        <DebugTrace>StartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. timeout for finding requested element: UserName
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 267EndOperation-Exception EndEndOperation StartEndOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. timeout for finding requested element: UserName
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 286
+   at UIAutomation.CreatePublisherTestOperations.VerifyProductToAllowedMarketMapping() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\CreatePublisherTestOperations.cs:line 213EndOperation-Exception EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation End</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a81aa65-ff85-4a62-a211-027e7aeca614" testId="05247693-d645-ce2e-4d44-939a80dae5bb" testName="CreateWin8AdunitTest" computerName="MININT-SNSLVOM" duration="00:00:56.9007725" startTime="2013-06-06T23:12:35.3605750+05:30" endTime="2013-06-06T23:13:32.2660499+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a81aa65-ff85-4a62-a211-027e7aeca614">
+      <Output>
+        <DebugTrace>StartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. timeout for finding requested element: NavItem_ToolManagement
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 267EndOperation-Exception EndEndOperation StartEndOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. timeout for finding requested element: NavItem_ToolManagement
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 286
+   at UIAutomation.CreateWin8AdUnit.CreateWin8AdunitTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\Create-Win8AdUnit.cs:line 52EndOperation-Exception EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation End</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. timeout for finding requested element: NavItem_ToolManagement</Message>
+          <StackTrace>   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 286
+   at UIAutomation.CreateWin8AdUnit.CreateWin8AdunitTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\Create-Win8AdUnit.cs:line 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64a521e8-7a8c-471b-8469-d2c7a8342e80" testId="c2c91595-81fa-cf41-4435-6ad3755bd251" testName="CreateWin8AdUnitUsrTest" computerName="MININT-SNSLVOM" duration="00:01:42.8081554" startTime="2013-06-06T23:13:32.2680486+05:30" endTime="2013-06-06T23:15:15.0821972+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64a521e8-7a8c-471b-8469-d2c7a8342e80">
+      <Output>
+        <DebugTrace>StartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation End</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e4fe462c-adb9-41a7-b9b0-f233fa659c1d" testId="262d4131-5831-0d45-af41-7f4e01104181" testName="CreateWinMobAdUnitTest" computerName="MININT-SNSLVOM" duration="00:01:37.1632534" startTime="2013-06-06T23:15:15.0841673+05:30" endTime="2013-06-06T23:16:52.2533862+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4fe462c-adb9-41a7-b9b0-f233fa659c1d">
+      <Output>
+        <DebugTrace>StartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation End</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

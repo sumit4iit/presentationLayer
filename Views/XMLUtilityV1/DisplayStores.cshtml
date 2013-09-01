@@ -1,0 +1,43 @@
+﻿@model DotNet.Highcharts.Highcharts
+@(Model)
+<!--add new datastore!!-->
+
+<form action="/XMLUtilityv1/AddDataStore">
+    <table>
+        <tr>
+            <td>
+                Name of the dataStore
+            </td>
+            <td>
+                <input type="text" name="id" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Path of .trx files
+            </td>
+            <td>
+                <input type="text" name="path"/>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Add Store"/>
+</form>
+
+<form action="/XMLUtilityv1/AddSeries" method="post">
+    <table>
+
+        <tr>
+            <td>
+
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+<div id="selectTest" style="margin-left:20px">
+    List of tests for selected run. 
+    <br>
+    Click on the data points ro select that run.
+</div>

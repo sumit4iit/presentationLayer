@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - PresentationLayer</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+ 
+        <script type="text/javascript" src="~/Scripts/jquery.min.js"></script>
+        <script src="~/Scripts/highcharts.js" type="text/javascript"></script>
+       
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+
+    </head>
+    <body style="width:auto">
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">@Html.ActionLink("Reset", "Reset", "XMLUtilityV1")</p>
+                </div>
+                <!--div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                    </nav>
+                </--div-->
+            </div>
+        </header>
+        <div id="body" style="width:auto">
+            @RenderSection("featured", required: false)
+                <section class="content-wrapper main-content clear-fix" style="width: auto">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - Microsoft</p>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d10526a8-0d12-475c-a6eb-9ee32720fc71" name="t-sumita@MININT-DQ57N74 2013-06-12 00:30:32" runUser="FAREAST\t-sumita" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="82d3055d-0619-4a08-a81f-8cf454257ed5">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="t-sumita_MININT-DQ57N74 2013-06-12 00_30_32" />
+  </TestSettings>
+  <Times creation="2013-06-12T00:30:32.7808431+05:30" queuing="2013-06-12T00:30:33.1234418+05:30" start="2013-06-12T00:30:33.2636152+05:30" finish="2013-06-12T01:39:42.0157289+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="4" error="0" failed="2" timeout="2" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <DebugTrace>StartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation End</DebugTrace>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="MININT-DQ57N74" outcome="Error" timestamp="2013-06-12T01:39:26.5398307+05:30">
+        <Text>Assembly Cleanup method UIAutomationHelper.AssemblyCleanUp failed. Error Message: System.InvalidOperationException: The Writer is closed or in error state.. StackTrace:     at System.Xml.XmlWellFormedWriter.AdvanceState(Token token)
+   at System.Xml.XmlWellFormedWriter.WriteStartElement(String prefix, String localName, String ns)
+   at Microsoft.Advertising.Display.CommonTestFramework.TestLogger.TestLoggerWriteStartElement(String text) in C:\PC\App\Main\Application\Test\PubCenterTIP\CommonTestFramework\TestLogger.cs:line 96
+   at Microsoft.Advertising.Display.CommonTestFramework.TestOperationsBase.StartOperation(Object[] loggedParameters) in C:\PC\App\Main\Application\Test\PubCenterTIP\CommonTestFramework\TestOperationsBase.cs:line 109
+   at UIAutomation.SeleniumUtils.SeleniumUtilsDeInit() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 177
+   at UIAutomation.UIAutomationHelper.AssemblyCleanUp() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\UIAutomationHelper.cs:line 49
+</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateWin8AdunitTest" storage="c:\users\t-sumita\desktop\testenv\si\release\uiautomation.dll" priority="0" id="05247693-d645-ce2e-4d44-939a80dae5bb">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="c0e0810d-f52b-4f00-82a2-10e3bf0459b7" />
+      <TestMethod codeBase="c:/users/t-sumita/Desktop/testEnv/SI/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreateWin8AdUnit, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="CreateWin8AdunitTest" />
+    </UnitTest>
+    <UnitTest name="VerifyCountryandStateOrProviencesTest" storage="c:\users\t-sumita\desktop\testenv\si\release\uiautomation.dll" priority="0" id="a70cfa2b-8d6d-6b7c-9f43-762f654c45eb">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="c5f939ba-5693-4ab4-a15a-ad3ea33a350e" />
+      <TestMethod codeBase="c:/users/t-sumita/Desktop/testEnv/SI/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreatePublisherTestOperations, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="VerifyCountryandStateOrProviencesTest" />
+    </UnitTest>
+    <UnitTest name="VerifyCreatePublisherTest" storage="c:\users\t-sumita\desktop\testenv\si\release\uiautomation.dll" priority="0" id="5fda8c87-0e24-9a28-8c1e-bae1401d1897">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="54441536-6afc-421d-86aa-5c554033b2e3" />
+      <TestMethod codeBase="c:/users/t-sumita/Desktop/testEnv/SI/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreatePublisherTestOperations, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="VerifyCreatePublisherTest" />
+    </UnitTest>
+    <UnitTest name="VerifyProductToAllowedMarketMapping" storage="c:\users\t-sumita\desktop\testenv\si\release\uiautomation.dll" priority="0" id="aec56dca-f03b-5822-aaaf-13c76c89e694">
+      <Owners>
+        <Owner name="blridcdat" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TestConfig" outputDirectory="TestConfig" />
+        <DeploymentItem filename="IEDriverServer.exe" />
+      </DeploymentItems>
+      <Execution id="0b9ed42c-610c-4db3-99e8-b32ed94b8480" />
+      <TestMethod codeBase="c:/users/t-sumita/Desktop/testEnv/SI/release/UIAutomation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UIAutomation.CreatePublisherTestOperations, UIAutomation, Version=11.4.4183.0, Culture=neutral, PublicKeyToken=null" name="VerifyProductToAllowedMarketMapping" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Lists of Results" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+    <TestList name="SIandPACE" id="11ec9c9a-6725-42f6-9b3d-17cd5f0596b5" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="05247693-d645-ce2e-4d44-939a80dae5bb" name="CreateWin8AdunitTest" storage="c:\users\t-sumita\desktop\testenv\si\release\uiautomation.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="a70cfa2b-8d6d-6b7c-9f43-762f654c45eb" name="VerifyCountryandStateOrProviencesTest" storage="c:\users\t-sumita\desktop\testenv\si\release\uiautomation.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="5fda8c87-0e24-9a28-8c1e-bae1401d1897" name="VerifyCreatePublisherTest" storage="c:\users\t-sumita\desktop\testenv\si\release\uiautomation.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="aec56dca-f03b-5822-aaaf-13c76c89e694" name="VerifyProductToAllowedMarketMapping" storage="c:\users\t-sumita\desktop\testenv\si\release\uiautomation.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="05247693-d645-ce2e-4d44-939a80dae5bb" executionId="c0e0810d-f52b-4f00-82a2-10e3bf0459b7" testListId="11ec9c9a-6725-42f6-9b3d-17cd5f0596b5" />
+    <TestEntry testId="a70cfa2b-8d6d-6b7c-9f43-762f654c45eb" executionId="c5f939ba-5693-4ab4-a15a-ad3ea33a350e" testListId="11ec9c9a-6725-42f6-9b3d-17cd5f0596b5" />
+    <TestEntry testId="5fda8c87-0e24-9a28-8c1e-bae1401d1897" executionId="54441536-6afc-421d-86aa-5c554033b2e3" testListId="11ec9c9a-6725-42f6-9b3d-17cd5f0596b5" />
+    <TestEntry testId="aec56dca-f03b-5822-aaaf-13c76c89e694" executionId="0b9ed42c-610c-4db3-99e8-b32ed94b8480" testListId="11ec9c9a-6725-42f6-9b3d-17cd5f0596b5" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c0e0810d-f52b-4f00-82a2-10e3bf0459b7" testId="05247693-d645-ce2e-4d44-939a80dae5bb" testName="CreateWin8AdunitTest" computerName="MININT-DQ57N74" duration="00:29:59.3896481" startTime="2013-06-12T00:30:33.3259170+05:30" endTime="2013-06-12T01:00:32.7155651+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Timeout" testListId="11ec9c9a-6725-42f6-9b3d-17cd5f0596b5" relativeResultsDirectory="c0e0810d-f52b-4f00-82a2-10e3bf0459b7">
+      <Output>
+        <DebugTrace>StartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. Operation :: OperationID: Click. ElementID: NavItem_ContentManagement. Parameter:  Failed
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.SeleniumOperation(SeleniumOperation Operation, String ElementID, String Operand, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 134EndOperation-Exception EndEndOperation StartEndOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. Operation :: OperationID: Click. ElementID: NavItem_ContentManagement. Parameter:  Failed
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.SeleniumOperation(SeleniumOperation Operation, String ElementID, String Operand, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 142
+   at UIAutomation.CreateWin8AdUnit.CreateWin8AdunitTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\Create-Win8AdUnit.cs:line 82EndOperation-Exception EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation End</DebugTrace>
+        <ErrorInfo>
+          <Message>Test 'CreateWin8AdunitTest' exceeded execution timeout period.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c5f939ba-5693-4ab4-a15a-ad3ea33a350e" testId="a70cfa2b-8d6d-6b7c-9f43-762f654c45eb" testName="VerifyCountryandStateOrProviencesTest" computerName="MININT-DQ57N74" duration="00:30:00.1865436" startTime="2013-06-12T01:00:38.7374208+05:30" endTime="2013-06-12T01:30:38.9239644+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Timeout" testListId="11ec9c9a-6725-42f6-9b3d-17cd5f0596b5" relativeResultsDirectory="c5f939ba-5693-4ab4-a15a-ad3ea33a350e">
+      <Output>
+        <DebugTrace>StartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation End</DebugTrace>
+        <ErrorInfo>
+          <Message>Test 'VerifyCountryandStateOrProviencesTest' exceeded execution timeout period.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="54441536-6afc-421d-86aa-5c554033b2e3" testId="5fda8c87-0e24-9a28-8c1e-bae1401d1897" testName="VerifyCreatePublisherTest" computerName="MININT-DQ57N74" duration="00:08:41.5320267" startTime="2013-06-12T01:30:44.9458587+05:30" endTime="2013-06-12T01:39:26.4929777+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="11ec9c9a-6725-42f6-9b3d-17cd5f0596b5" relativeResultsDirectory="54441536-6afc-421d-86aa-5c554033b2e3">
+      <Output>
+        <DebugTrace>StartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation-Exception StartSystem.Threading.ThreadAbortException: Thread was being aborted.
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 280EndOperation-Exception EndEndOperation StartEndOperation EndEndOperation-Exception StartSystem.Threading.ThreadAbortException: Thread was being aborted.
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 288
+   at UIAutomation.CreatePublisherTestOperations.VerifyCountryandStateOrProviencesTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\CreatePublisherTestOperations.cs:line 121EndOperation-Exception EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndStartOperation StartStartOperation EndEndOperation StartEndOperation EndEndOperation StartEndOperation EndEndOperation-Exception StartMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.Fail failed. timeout for finding requested element: UserName
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 268EndOperation-Exception EndEndOperation StartEndOperation EndEndOperation-Exception StartSystem.InvalidOperationException: Token EndElement in state EndRootElement would result in an invalid XML document. Make sure that the ConformanceLevel setting is set to ConformanceLevel.Fragment or ConformanceLevel.Auto if you want to write an XML fragment. 
+   at System.Xml.XmlWellFormedWriter.ThrowInvalidStateTransition(Token token, State currentState)
+   at System.Xml.XmlWellFormedWriter.AdvanceState(Token token)
+   at System.Xml.XmlWellFormedWriter.WriteEndElement()
+   at Microsoft.Advertising.Display.CommonTestFramework.TestLogger.TestLoggerWriteEndElement() in C:\PC\App\Main\Application\Test\PubCenterTIP\CommonTestFramework\TestLogger.cs:line 103
+   at Microsoft.Advertising.Display.CommonTestFramework.TestOperationsBase.EndOperation(Object[] loggedResults) in C:\PC\App\Main\Application\Test\PubCenterTIP\CommonTestFramework\TestOperationsBase.cs:line 137
+   at UIAutomation.SeleniumUtils.WaitForElement(String ElementID, Int32 timeout, SeleniumElementSelection elementSelection, Boolean doAssert) in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\SeleniumUtils.cs:line 292
+   at UIAutomation.CreatePublisherTestOperations.VerifyCreatePublisherTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\CreatePublisherTestOperations.cs:line 49EndOperation-Exception End</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method UIAutomation.CreatePublisherTestOperations.VerifyCreatePublisherTest threw exception: 
+System.InvalidOperationException: The Writer is closed or in error state.
+TestCleanup method UIAutomation.CreatePublisherTestOperations.TeardownTest threw exception. System.InvalidOperationException: System.InvalidOperationException: The Writer is closed or in error state..</Message>
+          <StackTrace>    at System.Xml.XmlWellFormedWriter.AdvanceState(Token token)
+   at System.Xml.XmlWellFormedWriter.WriteStartElement(String prefix, String localName, String ns)
+   at Microsoft.Advertising.Display.CommonTestFramework.TestLogger.TestLoggerLog(String text, String textType) in C:\PC\App\Main\Application\Test\PubCenterTIP\CommonTestFramework\TestLogger.cs:line 128
+   at Microsoft.Advertising.Display.CommonTestFramework.TestOperationsBase.LogResult(Boolean result) in C:\PC\App\Main\Application\Test\PubCenterTIP\CommonTestFramework\TestOperationsBase.cs:line 165
+   at UIAutomation.CreatePublisherTestOperations.VerifyCreatePublisherTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\CreatePublisherTestOperations.cs:line 99
+
+TestCleanup Stack Trace
+    at System.Xml.XmlWellFormedWriter.AdvanceState(Token token)
+   at System.Xml.XmlWellFormedWriter.WriteStartElement(String prefix, String localName, String ns)
+   at Microsoft.Advertising.Display.CommonTestFramework.TestLogger.TestLoggerWriteStartElement(String text) in C:\PC\App\Main\Application\Test\PubCenterTIP\CommonTestFramework\TestLogger.cs:line 96
+   at UIAutomation.UIAutomationHelper.TestDeInit() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\UIAutomationHelper.cs:line 148
+   at UIAutomation.CreatePublisherTestOperations.TeardownTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\CreatePublisherTestOperations.cs:line 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0b9ed42c-610c-4db3-99e8-b32ed94b8480" testId="aec56dca-f03b-5822-aaaf-13c76c89e694" testName="VerifyProductToAllowedMarketMapping" computerName="MININT-DQ57N74" duration="00:00:00.0017020" startTime="2013-06-12T01:39:26.4929777+05:30" endTime="2013-06-12T01:39:26.5085726+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="11ec9c9a-6725-42f6-9b3d-17cd5f0596b5" relativeResultsDirectory="0b9ed42c-610c-4db3-99e8-b32ed94b8480">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method UIAutomation.CreatePublisherTestOperations.SetupTest threw exception. System.InvalidOperationException: System.InvalidOperationException: The Writer is closed or in error state..</Message>
+          <StackTrace>    at System.Xml.XmlWellFormedWriter.AdvanceState(Token token)
+   at System.Xml.XmlWellFormedWriter.WriteStartElement(String prefix, String localName, String ns)
+   at Microsoft.Advertising.Display.CommonTestFramework.TestLogger.TestLoggerWriteStartElement(String text) in C:\PC\App\Main\Application\Test\PubCenterTIP\CommonTestFramework\TestLogger.cs:line 96
+   at UIAutomation.CreatePublisherTestOperations.SetupTest() in C:\PC\App\Main\Application\Test\PubCenterTIP\UIAutomation\CreatePublisherTestOperations.cs:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

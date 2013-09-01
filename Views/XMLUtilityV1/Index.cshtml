@@ -1,0 +1,61 @@
+﻿@model DotNet.Highcharts.Highcharts
+@(Model)
+
+<form action="/XMLUtilityv1" method="GET" style="float: left">
+    <table>
+        <tr>
+            <td>
+                Name of the dataStore
+            </td>
+            <td>
+                <input type="text" name="param1" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Path of .trx files
+            </td>
+            <td>
+                <input type="text" name="param2"/>
+            </td>
+        </tr>
+    </table>
+    <input type="text" value="AddDataStore" name="control" hidden/>
+    <input type="submit" value="Add Store" />
+</form>
+
+<div id="selectTest" style="margin-left:20px; margin-top: 18px;">
+    Click on a point to get more details about that run.
+</div>
+
+<div style="clear:both"></div>
+
+<hr>
+
+<div>
+
+<div>
+    <h3>Reset Chart</h3>
+        <table>
+            <td>
+                <tr>
+                    <a href="~/Views/XmlUtilityV1/Index?control=Reset&param1=ALL"> Master RESET </a>
+                </tr>
+            </td>
+            <td>
+                <tr>
+                    <a href="~/Views/XmlUtilityV1/Index?control=Reset&param1=TEST"> Test RESET </a>
+                </tr>
+            </td>
+            <td>
+                <tr>
+                    <a href="~/Views/XmlUtilityV1/Index?control=Reset&param1=STORE"> STORE RESET </a>
+                </tr>
+            </td>
+        </table>
+</div>
+
+
+
+<h2> @ViewBag.Message </h2> 
+<h2> @ViewBag.ErrorMessage </h2>
